@@ -1,0 +1,23 @@
+---
+import TableOfContents from 'astro-table-of-contents/component';
+export const prerender = true;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+		<h2>Example</h2>
+		<h2>Another Example</h2>
+		<h3>Example 2</h3>
+		<h2>Example 3</h2>
+		<h3>Un titulo super largo que se corta en el limite</h3>
+		<TableOfContents />
+	</body>
+</html>
