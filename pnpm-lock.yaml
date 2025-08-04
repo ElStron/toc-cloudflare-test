@@ -18,8 +18,8 @@ importers:
         specifier: ^5.12.8
         version: 5.12.8(@types/node@24.1.0)(rollup@4.46.2)(typescript@5.9.2)
       astro-table-of-contents:
-        specifier: ^1.0.8
-        version: 1.0.8
+        specifier: ^1.0.9
+        version: 1.0.9
 
 packages:
 
@@ -794,8 +794,8 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-table-of-contents@1.0.8:
-    resolution: {integrity: sha512-KQMViMwkMDekMkQWdKTN9Mc78wC8MFL1ps/JsqlLSOffQ2ePhe9HJYdfPXGMpoOXDI4RIU2MxD3KvGnG43knew==}
+  astro-table-of-contents@1.0.9:
+    resolution: {integrity: sha512-wzN7sKhrPyz52Rwx434toIWPguCupoUL45DtNOcVO71EKr3y9/XKaaGFT+nMC0Aytt878pZ0RsBw8ME+elU0mA==}
 
   astro@5.12.8:
     resolution: {integrity: sha512-KkJ7FR+c2SyZYlpakm48XBiuQcRsrVtdjG5LN5an0givI/tLik+ePJ4/g3qrAVhYMjJOxBA2YgFQxANPiWB+Mw==}
@@ -2555,7 +2555,7 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-table-of-contents@1.0.8:
+  astro-table-of-contents@1.0.9:
     dependencies:
       typescript: 5.9.2
 
